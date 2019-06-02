@@ -26,6 +26,7 @@ apm install change-case
 apm install markdown-pdf
 apm install pretty-json
 apm install split-diff
+apm install terminal-plus
 
 # dev tools
 brew cask install sequel-pro
