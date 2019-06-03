@@ -27,6 +27,7 @@ apm install markdown-pdf
 apm install pretty-json
 apm install split-diff
 apm install terminal-plus
+apm install language-babel
 
 # dev tools
 brew cask install sequel-pro
