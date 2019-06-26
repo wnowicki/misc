@@ -24,10 +24,14 @@ apm install editorconfig
 apm install language-markdown
 apm install change-case
 apm install markdown-pdf
+apm install atom-ide-ui
 apm install pretty-json
 apm install split-diff
 apm install terminal-plus
 apm install language-babel
+apm install goto-definition
+apm install autoclose-html
+apm install docblockr
 
 # dev tools
 brew cask install sequel-pro
