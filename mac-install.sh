@@ -32,9 +32,13 @@ apm install language-babel
 apm install goto-definition
 apm install autoclose-html
 apm install docblockr
+apm install php-cs-fixer
 
 # dev tools
 brew cask install sequel-pro
 brew cask install virtualbox
 brew cask install vagrant
 # brew cask install phpstorm
+
+# PHP
+composer global require friendsofphp/php-cs-fixer
