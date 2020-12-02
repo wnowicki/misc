@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # hide desktop icons
 defaults write com.apple.finder CreateDesktop -bool false && killall Finder
 
@@ -33,6 +35,12 @@ apm install goto-definition
 apm install autoclose-html
 apm install docblockr
 apm install php-cs-fixer
+
+# docker
+brew install bash-completion
+brew cask install docker
+brew install kubectl
+brew cask install minikube
 
 # dev tools
 brew cask install sequel-pro
