@@ -7,8 +7,7 @@ defaults write com.apple.finder CreateDesktop -bool false && killall Finder
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # git
-brew install caskroom/cask/brew-cask
-brew cask install git
+brew install git
 
 # brew tools - as needed
 brew install wget
@@ -50,3 +49,7 @@ brew cask install vagrant
 
 # PHP
 composer global require friendsofphp/php-cs-fixer
+
+# misc
+brew install --cask whatsapp
+brew install --cask slack
