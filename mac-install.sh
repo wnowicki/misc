@@ -15,9 +15,9 @@ brew install wget
 # brew install node
 
 # base apps
-brew cask install google-chrome
-brew cask install github-desktop
-brew cask install spotify
+brew install google-chrome --cask
+brew install github-desktop --cask
+brew install spotify --cask
 
 # atom 
 brew cask install atom
@@ -37,15 +37,15 @@ apm install php-cs-fixer
 
 # docker
 brew install bash-completion
-brew cask install docker
+brew install docker --cask
 brew install kubectl
-brew cask install minikube
+brew install minikube --cask
 
 # dev tools
-brew cask install sequel-pro
-brew cask install virtualbox
-brew cask install vagrant
-# brew cask install phpstorm
+brew install sequel-pro --cask
+brew install virtualbox --cask
+brew install vagrant --cask
+# brew install phpstorm --cask
 
 # PHP
 composer global require friendsofphp/php-cs-fixer
@@ -53,3 +53,6 @@ composer global require friendsofphp/php-cs-fixer
 # misc
 brew install --cask whatsapp
 brew install --cask slack
+brew install --cask zoom
+brew install --cask tunnelblick
+brew install --cask caffeine
