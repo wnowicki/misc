@@ -43,10 +43,12 @@ brew install kubectl
 brew install minikube --cask
 
 # dev tools
-brew install sequel-pro --cask
-brew install virtualbox --cask
-brew install vagrant --cask
-# brew install phpstorm --cask
+brew install --cask sequel-pro
+brew install --cask mysqlworkbench
+brew install --cask robo-3t
+brew install --cask virtualbox
+brew install --cask vagrant
+# brew install --cask phpstorm 
 
 # PHP
 composer global require friendsofphp/php-cs-fixer
@@ -57,3 +59,6 @@ brew install --cask slack
 brew install --cask zoom
 brew install --cask tunnelblick
 brew install --cask caffeine
+brew install --cask drawio
+brew install --cask libreoffice
+brew install --cask vlc
