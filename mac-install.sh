@@ -48,7 +48,9 @@ brew install --cask mysqlworkbench
 brew install --cask robo-3t
 brew install --cask virtualbox
 brew install --cask vagrant
-# brew install --cask phpstorm 
+# brew install --cask phpstorm
+brew install --cask db-browser-for-sqlite
+brew install --cask cyberduck
 
 # PHP
 composer global require friendsofphp/php-cs-fixer
