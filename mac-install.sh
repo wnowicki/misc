@@ -18,6 +18,7 @@ brew install wget
 brew install google-chrome --cask
 brew install github-desktop --cask
 brew install spotify --cask
+brew install --cask sourcetree
 
 # atom 
 brew cask install atom
