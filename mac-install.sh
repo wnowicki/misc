@@ -64,3 +64,4 @@ brew install --cask caffeine
 brew install --cask drawio
 brew install --cask libreoffice
 brew install --cask vlc
+brew install --cask keka
