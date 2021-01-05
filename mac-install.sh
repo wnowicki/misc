@@ -3,6 +3,9 @@
 # hide desktop icons
 defaults write com.apple.finder CreateDesktop -bool false && killall Finder
 
+# Screenshots
+mkdir ~/Screenshots && defaults write com.apple.screencapture location  ~/Screenshots && killall SystemUIServer
+
 # brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -16,12 +19,12 @@ brew install wget
 
 # base apps
 brew install google-chrome --cask
-brew install github-desktop --cask
+brew install github --cask
 brew install spotify --cask
 brew install --cask sourcetree
 
 # atom 
-brew cask install atom
+brew install --cask atom
 apm install editorconfig
 apm install language-markdown
 apm install change-case
@@ -38,9 +41,8 @@ apm install php-cs-fixer
 
 # docker
 brew install bash-completion
-brew install docker --cask
+brew install --cask docker
 brew install kubectl
-brew install minikube --cask
 
 # dev tools
 brew install --cask sequel-pro
