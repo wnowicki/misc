@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # hide desktop icons
-defaults write com.apple.finder CreateDesktop -bool false && killall Finder
+# defaults write com.apple.finder CreateDesktop -bool false && killall Finder
 
 # Screenshots
-mkdir ~/Screenshots && defaults write com.apple.screencapture location  ~/Screenshots && killall SystemUIServer
+# mkdir ~/Screenshots && defaults write com.apple.screencapture location  ~/Screenshots && killall SystemUIServer
 
 # brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # git
 brew install git
@@ -45,7 +45,8 @@ brew install --cask docker
 brew install kubectl
 
 # dev tools
-brew install --cask sequel-pro
+brew install --cask beekeeper-studio
+# brew install --cask sequel-pro
 brew install --cask mysqlworkbench
 brew install --cask robo-3t
 brew install --cask virtualbox
