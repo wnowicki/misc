@@ -14,8 +14,6 @@ brew install git
 
 # brew tools - as needed
 brew install wget
-# brew install ruby
-# brew install node
 
 # base apps
 brew install google-chrome --cask
@@ -23,21 +21,8 @@ brew install github --cask
 brew install spotify --cask
 brew install --cask sourcetree
 
-# atom 
-brew install --cask atom
-apm install editorconfig
-apm install language-markdown
-apm install change-case
-apm install markdown-pdf
-apm install atom-ide-ui
-apm install pretty-json
-apm install split-diff
-apm install terminal-plus
-apm install language-babel
-apm install goto-definition
-apm install autoclose-html
-apm install docblockr
-apm install php-cs-fixer
+# VSC
+brew install --cask visual-studio-code
 
 # docker
 brew install bash-completion
@@ -46,14 +31,17 @@ brew install kubectl
 
 # dev tools
 brew install --cask beekeeper-studio
-# brew install --cask sequel-pro
 brew install --cask mysqlworkbench
 brew install --cask robo-3t
 brew install --cask virtualbox
 brew install --cask vagrant
 # brew install --cask phpstorm
-brew install --cask db-browser-for-sqlite
+# brew install --cask db-browser-for-sqlite
 brew install --cask cyberduck
+brew install pre-commit
+
+# Python
+brew install pylint
 
 # PHP
 composer global require friendsofphp/php-cs-fixer
