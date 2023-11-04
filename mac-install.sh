@@ -56,3 +56,4 @@ brew install --cask drawio
 brew install --cask libreoffice
 brew install --cask vlc
 brew install --cask keka
+brew install --cask balenaetcher
