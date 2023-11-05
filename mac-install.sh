@@ -21,24 +21,25 @@ brew install github --cask
 brew install spotify --cask
 brew install --cask sourcetree
 
-# VSC
-brew install --cask visual-studio-code
-
-# docker
+# Docker
 brew install bash-completion
 brew install --cask docker
 brew install kubectl
 
-# dev tools
+# DEV Tools
+brew install --cask visual-studio-code
+# brew install --cask virtualbox
+# brew install --cask vagrant
+# brew install --cask phpstorm
+
+brew install --cask cyberduck
+brew install pre-commit
+
+# DB Clients
 brew install --cask beekeeper-studio
 brew install --cask mysqlworkbench
 brew install --cask robo-3t
-brew install --cask virtualbox
-brew install --cask vagrant
-# brew install --cask phpstorm
 # brew install --cask db-browser-for-sqlite
-brew install --cask cyberduck
-brew install pre-commit
 
 # Python
 brew install pylint
@@ -46,13 +47,27 @@ brew install pylint
 # PHP
 composer global require friendsofphp/php-cs-fixer
 
-# misc
+# Communicators
 brew install --cask whatsapp
 brew install --cask slack
 brew install --cask zoom
-brew install --cask tunnelblick
-brew install --cask caffeine
+brew install --cask discord
+
+# VPN
+brew install --cask openvpn-connect
+# brew install --cask tunnelblick
+
+
+# Drawing / Graphics
 brew install --cask drawio
+brew install --cask inkscape
+
+# Knowledge Base
+# brew install --cask obsidian
+# brew install --cask logseq
+
+# Misc
+brew install --cask caffeine
 brew install --cask libreoffice
 brew install --cask vlc
 brew install --cask keka
