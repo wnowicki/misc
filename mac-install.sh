@@ -61,6 +61,7 @@ brew install --cask openvpn-connect
 # Drawing / Graphics
 brew install --cask drawio
 brew install --cask inkscape
+brew install --cask xnviewmp
 
 # Knowledge Base
 # brew install --cask obsidian
