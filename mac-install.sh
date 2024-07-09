@@ -25,6 +25,8 @@ brew install --cask sourcetree
 brew install bash-completion
 brew install --cask docker
 brew install kubectl
+brew install helm
+brew install jq
 
 # DEV Tools
 brew install --cask visual-studio-code
@@ -68,9 +70,11 @@ brew install --cask xnviewmp
 # brew install --cask logseq
 
 # Misc
+brew install --cask boop
 brew install --cask caffeine
 brew install --cask libreoffice
 brew install --cask vlc
 brew install --cask keka
 brew install --cask balenaetcher
 brew install kettle
+brew install --cask sweet-home3d
